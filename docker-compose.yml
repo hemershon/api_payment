@@ -28,11 +28,7 @@ services:
     restart: always
     environment:
       POSTGRES_USER: postgres
-<<<<<<< HEAD
-      POSTGRES_PASSWORD: bjt-bank
-=======
       POSTGRES_PASSWORD: payment
->>>>>>> 16b87d6 (feat create project test for id2)
     volumes:
       - ./postgres:/var/lib/postgresql/data
     ports:
