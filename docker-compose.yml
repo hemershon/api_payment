@@ -19,7 +19,10 @@ services:
     environment:
       - RAILS_ENV=${RAILS_ENV}
       - SECRET_KEY_BASE=${SECRET_KEY_BASE}
+      - JWT_SECRET=${JWT_SECRET}
       - BYEBUG_PORT=1234
+    tty: true 
+    stdin_open: true
     depends_on:
       - db
 
