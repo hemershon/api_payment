@@ -58,4 +58,4 @@ localhots:8181
 ```
 Collecation Postman
 
-[Collecaction](https://github.com/hemershon/obj-bank/blob/main/docs/obj-bank.postman_collection.json)
+[Collecaction](https://github.com/hemershon/api_payment/blob/develop/docs/payment.postman_collection.json)
